@@ -6,6 +6,7 @@ library(tibble)
 library(mvtnorm)
 library(dplyr)
 
+## Please change working directory before running
 setwd("/work/bards/guozi/GSD/WPGSD_Supp_Programs")
 
 # Source user-defined functions

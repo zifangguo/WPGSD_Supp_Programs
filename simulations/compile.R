@@ -5,6 +5,7 @@ rm(list=ls())
 library(kableExtra)
 library(tidyverse)
 
+## Please change working directory before running
 setwd("/work/bards/guozi/GSD/WPGSD_Supp_Programs")
 
 result <- NULL

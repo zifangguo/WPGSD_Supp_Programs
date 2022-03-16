@@ -13,6 +13,7 @@ set.seed(12345*i+j+321*task)
 
 #~~ End of cluster run setup #
 
+## Please change working directory before running
 setwd("/work/bards/guozi/GSD/WPGSD_Supp_Programs")
 
 library(dplyr)
@@ -255,3 +256,6 @@ final
 
 write.csv(final, paste("./simulations/outtable/sim_result_HR", i, "_prop", j ,"_task", task, ".csv", sep=""), row.names=FALSE)
 
+## if running simulation on a single PC, comment out above line and use below for output 
+## output to csv
+## write.csv(final, file = "./simulations/results/sim_all.csv", row.names = FALSE)
