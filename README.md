@@ -13,9 +13,16 @@ Platform: x86_64-pc-linux-gnu (64-bit)
 Running under: CentOS Linux 7 (Core)
 
 Packages versions:
-gsdmvn_0.1.1        gsDesign2_0.1       simtrial_0.1.7.9003 mvtnorm_1.1-1      
+gsdmvn_0.2.0        gsDesign2_0.2.0     simtrial_0.2.1      mvtnorm_1.1-1      
 testthat_2.3.2      tidyr_1.1.0         gsDesign_3.1.1      ggplot2_3.3.2      
 tibble_3.0.3        gMCP_0.8-15         survival_3.1-12     dplyr_1.0.0           
+
+The R packages gsdmvn, gsDesign2, and simtrial can be installed via the following:
+```r
+remotes::install_github("Merck/gsdmvn@v0.2.0")
+remotes::install_github("Merck/gsDesign2@v0.2.0")
+remotes::install_github("Merck/simtrial@v0.2.1")
+```
 
 
 Below is a brief summary of the programs in each subfolder. The working directory needs to be reset by editing the setwd() line before running any program.
